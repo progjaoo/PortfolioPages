@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Obrigado por entrar em contato</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&;500;600;700;800;900&display=swap');
+
+        :root {
+            --bg-color: #fdfdfd;
+            --text-color: #333;
+            --main-color: #754ef9;
+            --white-color: #fdfdfd;
+            --shadow-color: rgba(0, 0, 0, .2);
+            --contra-color: #0b061f;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding-top: 200px;
+            background-color: var(--main-color)
+        }
+
+        .btn {
+            display: flex;
+            padding: 1.2rem 2.8rem;
+            background: var(--main-color);
+            border-radius: .6rem;
+            box-shadow: 0 .2rem .5rem var(--shadow-color);
+            font-size: 1.0rem;
+            color: var(--white-color);
+            text-align: center;
+            font-weight: 600;
+            transition: .5s;
+            margin-top: 10px;
+            margin-left: 800px;
+            margin-right: 800px;
+
+            text-decoration: none;
+            justify-content: center;
+        }
+
+        .btn:hover {
+            background: var(--contra-color);
+            color: var();
+            border-color: var(--main-color);
+            cursor: pointer;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .obrigado1 {
+            background: var(--contra-color);
+            text-align: center;
+            flex: 1 1 30rem;
+            padding: 3rem 2rem 2rem;
+            border-radius: 2rem;
+            box-shadow: 0 .1rem .5rem var(--shadow-color);
+            text-align: center;
+            width: 700px;
+            margin-top: -170px;
+            margin-left: 5px;
+
+        }
+
+        img {
+            width: 20%;
+            border-radius: 20%;
+        }
+
+        h1,
+        h3 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: var(--bg-color);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="obrigado1">
+            <h1>Obrigado por entrar em contato!</h1>
+            <h3>Seu email foi recebido com sucesso e em breve entrarei em contato com você.</h3>
+            <img src="images/message.png" alt="">
+            <a href="./index.html" class="btn">RETORNAR</a>
+        </div>
+    </div>
+</body>
+
+</html>
